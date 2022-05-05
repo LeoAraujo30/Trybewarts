@@ -28,3 +28,12 @@ header {
 form.trybewarts-login {
   display: flex;
 }
+
+form#evaluation-form {
+    display: flex;
+    width: 675px;
+}
+
+main {
+    display: flex;
+}
