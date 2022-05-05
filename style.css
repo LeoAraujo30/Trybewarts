@@ -41,6 +41,7 @@ form#evaluation-form {
     display: flex;
     width: 675px;
     flex-direction: column;
+    margin-bottom: 40px;
 }
 
 h2 {
