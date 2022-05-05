@@ -29,9 +29,16 @@ form.trybewarts-login {
   display: flex;
 }
 
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 form#evaluation-form {
     display: flex;
     width: 675px;
+    flex-direction: column;
 }
 
 main {
@@ -40,4 +47,13 @@ main {
 
 img#trybewarts-forms-logo {
     height: 500px;
+}
+
+.name-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.name-container input, #house {
+  flex-grow: 1;
 }
