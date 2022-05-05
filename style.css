@@ -55,9 +55,18 @@ form#evaluation-form {
 }
 
 .radio-input label {
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 
 .radio-input:hover {
   cursor: pointer;
+}
+
+#radio-rate-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#radio-rate-container .radio-input label {
+  margin-left: 0;
 }
