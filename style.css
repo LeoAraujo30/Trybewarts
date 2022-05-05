@@ -49,3 +49,15 @@ form#evaluation-form {
 .name-container input {
   flex-grow: 1;
 }
+
+#label-family {
+  margin: 10px 0;
+}
+
+.radio-input label {
+  margin-left: 1rem;
+}
+
+.radio-input:hover {
+  cursor: pointer;
+}
