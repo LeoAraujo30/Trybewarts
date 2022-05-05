@@ -11,6 +11,7 @@ body {
 header.header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  justify-content: space-around;
 }
 
 header {
@@ -23,10 +24,13 @@ header {
 
 #trybewarts-header-title {
   color: whitesmoke;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: xxx-large;
 }
 
 form.trybewarts-login {
   display: flex;
+  padding: 10px;
 }
 
 main {
@@ -88,3 +92,19 @@ img#trybewarts-forms-logo {
 #agreement-container > label {
   margin-right: 10px;
 }
+
+footer{
+    background-color: rgb(50, 167, 145); 
+    padding: 15px;
+    margin-top: 62px;
+}
+
+footer p{
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+
