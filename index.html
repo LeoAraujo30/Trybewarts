@@ -14,7 +14,7 @@
         <form class="trybewarts-login">
             <input type="email" id="email" name="email" placeholder="Email" >
             <input type="password" id="password" name="password" placeholder="Senha" >
-            <button id="submit-btn">Entrar</button>
+            <button id="login-submit-btn">Entrar</button>
         </form>
     </header>
     <main>
@@ -32,6 +32,20 @@
                     <option id="pytherina-house" value="Pytherina">Pytherina</option>
                 </select>
             </div>
+            <label id="label-family">Qual sua família?</label>
+            <div class="radio-input">
+                <input type="radio" name="family" value="Frontend" id="frontend">
+                <label for="frontend">Frontend</label>
+            </div>
+            <div class="radio-input">
+                <input type="radio" name="family" value="Backend" id="backend">
+                <label for="backend">Backend</label>
+            </div>
+            <div class="radio-input">
+                <input type="radio" name="family" value="FullStack" id="fullstack">
+                <label for="fullstack">FullStack</label>
+            </div>
+            <hr>
             <div>
                 <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
                 <br>
@@ -42,11 +56,60 @@
                 <input type="checkbox" id="conteudo-5" value="SQL">SQL
                 <input type="checkbox" id="conteudo-6" value="Python">Python
             </div>
+            <div id="radio-rate-container">
+                <label for="rate" id="label-rate">Como você avalia a Trybewarts?</label>
+                <div class="radio-input">
+                    <input type="radio" name="rate" value="1">
+                    <label>1</label>
+                </div>
+                <div class="radio-input">
+                    <input type="radio" name="rate" value="2">
+                    <label>2</label>
+                </div>
+                <div class="radio-input">
+                    <input type="radio" name="rate" value="3">
+                    <label>3</label>
+                </div>
+                <div class="radio-input">
+                    <input type="radio" name="rate" value="4">
+                    <label>4</label>
+                </div>
+                <div class="radio-input">
+                    <input type="radio" name="rate" value="5">
+                    <label>5</label>
+                </div>
+                <div class="radio-input">
+                    <input type="radio" name="rate" value="6">
+                    <label>6</label>
+                </div>
+                <div class="radio-input">
+                    <input type="radio" name="rate" value="7">
+                    <label>7</label>
+                </div>
+                <div class="radio-input">
+                    <input type="radio" name="rate" value="8">
+                    <label>8</label>
+                </div>
+                <div class="radio-input">
+                    <input type="radio" name="rate" value="9">
+                    <label>9</label>
+                </div>
+                <div class="radio-input">
+                    <input type="radio" name="rate" value="10">
+                    <label>10</label>
+                </div>
+            </div>
             <label for="" class="textarea">Deixe seu comentário:</label>
             <textarea name="texto" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+            <div id="agreement-container">
+                <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
+                <input type="checkbox" name="agreement" id="agreement">
+            </div>
+            <button type="submit" id="submit-btn" disabled="disabled">Enviar</button>
         </form>
         <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="logo trybewarts">
     </main>
+    <footer>Direitos reservados à Trybewarts©</footer>
     <script src="script.js"></script>
 </body>
 </html>

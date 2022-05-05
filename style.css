@@ -57,3 +57,34 @@ img#trybewarts-forms-logo {
 .name-container input, #house {
   flex-grow: 1;
 }
+
+#label-family {
+  margin: 10px 0;
+}
+
+.radio-input label {
+  margin-left: 0.5rem;
+}
+
+.radio-input:hover {
+  cursor: pointer;
+}
+
+#radio-rate-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+#radio-rate-container .radio-input label {
+  margin-left: 0;
+}
+
+#agreement-container {
+  display: flex;
+  align-items: center;
+}
+
+#agreement-container > label {
+  margin-right: 10px;
+}
