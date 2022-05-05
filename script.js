@@ -29,3 +29,14 @@ agreementCheckboxInput.addEventListener('change', (event) => {
     formSubmitButton.setAttribute('disabled', 'disabled');
   }
 });
+
+
+
+const textarea = document.getElementById('textarea')
+const counter = document.getElementById('counter')
+
+textarea.addEventListener('keyup', caracteresCounter)
+function caracteresCounter () {
+        const caracteres = textarea.value
+        counter.innerText = 500 - caracteres.length
+}
