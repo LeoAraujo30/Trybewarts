@@ -6,6 +6,7 @@
 
 body {
   font-family: sans-serif;
+  background-color: #eee;
 }
 
 header.header {
@@ -33,6 +34,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 50px;
 }
 
 form#evaluation-form {
@@ -41,50 +43,104 @@ form#evaluation-form {
     flex-direction: column;
 }
 
-main {
-    display: flex;
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+hr {
+  margin: 5px 0;
 }
 
 img#trybewarts-forms-logo {
-    height: 500px;
+  height: 500px;
 }
 
 .name-container {
   display: flex;
   flex-wrap: wrap;
+  margin: 10px 0;
+  gap: 10px;
 }
 
 .name-container input, #house {
   flex-grow: 1;
+  flex-basis: 45%;
+  border-radius: 10px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  background-color: white;
 }
 
 #label-family {
   margin: 10px 0;
 }
 
-.radio-input label {
-  margin-left: 0.5rem;
+.radio-input {
+  margin: 10px 0;
 }
 
 .radio-input:hover {
   cursor: pointer;
 }
 
-#radio-rate-container {
+.subjects-container {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.checkbox-container {
+  flex-basis: 33%;
   margin: 10px 0;
 }
 
-#radio-rate-container .radio-input label {
+.row-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.row-container .radio-input label {
   margin-left: 0;
+}
+
+#textarea-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#textarea {
+  border-radius: 5px;
+  border: 2px solid purple;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+#counter {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 
 #agreement-container {
   display: flex;
   align-items: center;
+  margin: 10px 0;
+  gap: 10px;
 }
 
-#agreement-container > label {
-  margin-right: 10px;
+#submit-btn {
+  height: 40px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+#submit-btn:not(:disabled) {
+  background-color: purple;
+  color: white;
+  border: none;
 }

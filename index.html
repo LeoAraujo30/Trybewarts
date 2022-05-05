@@ -19,6 +19,7 @@
     </header>
     <main>
         <form id="evaluation-form">
+            <h2>Formulário de Avaliação</h2>
             <div class="name-container">
                 <input type="text" name="name" id="input-name" placeholder="Nome">
                 <input type="text" name="last-name" id="input-lastname" placeholder="Sobrenome">
@@ -32,31 +33,55 @@
                     <option id="pytherina-house" value="Pytherina">Pytherina</option>
                 </select>
             </div>
-            <label id="label-family">Qual sua família?</label>
-            <div class="radio-input">
-                <input type="radio" class="family-radio" name="family" value="Frontend" id="frontend">
-                <label for="frontend">Frontend</label>
-            </div>
-            <div class="radio-input">
-                <input type="radio" class="family-radio" name="family" value="Backend" id="backend">
-                <label for="backend">Backend</label>
-            </div>
-            <div class="radio-input">
-                <input type="radio" class="family-radio" name="family" value="FullStack" id="fullstack">
-                <label for="fullstack">FullStack</label>
+            <hr>
+            <div class="row-container">
+                <div>
+                    <label id="label-family">Qual sua família?</label>
+                    <div class="radio-input">
+                        <input type="radio" class="family-radio" name="family" value="Frontend" id="frontend">
+                        <label for="frontend">Frontend</label>
+                    </div>
+                    <div class="radio-input">
+                        <input type="radio" class="family-radio" name="family" value="Backend" id="backend">
+                        <label for="backend">Backend</label>
+                    </div>
+                    <div class="radio-input">
+                        <input type="radio" class="family-radio" name="family" value="FullStack" id="fullstack">
+                        <label for="fullstack">FullStack</label>
+                    </div>
+                </div>
+                <div>
+                    <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+                    <div class="subjects-container">
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="subject" id="conteudo-1" value="HoFs">
+                            <label for="conteudo-1">HoFs</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="subject" id="conteudo-2" value="Jest">
+                            <label for="conteudo-2">Jest</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="subject" id="conteudo-3" value="Promises">
+                            <label for="conteudo-3">Promises</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="subject" id="conteudo-4" value="React">
+                            <label for="conteudo-4">React</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="subject" id="conteudo-5" value="SQL">
+                            <label for="conteudo-5">SQL</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="subject" id="conteudo-6" value="Python">
+                            <label for="conteudo-5">Python</label>
+                        </div>
+                    </div>
+                </div>
             </div>
             <hr>
-            <div>
-                <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
-                <br>
-                <input type="checkbox" class="subject" id="conteudo-1" value="HoFs">HoFs
-                <input type="checkbox" class="subject" id="conteudo-2" value="Jest">Jest
-                <input type="checkbox" class="subject" id="conteudo-3" value="Promises">Promises
-                <input type="checkbox" class="subject" id="conteudo-4" value="React">React
-                <input type="checkbox" class="subject" id="conteudo-5" value="SQL">SQL
-                <input type="checkbox" class="subject" id="conteudo-6" value="Python">Python
-            </div>
-            <div id="radio-rate-container">
+            <div class="row-container">
                 <label for="rate" id="label-rate">Como você avalia a Trybewarts?</label>
                 <div class="radio-input">
                     <input type="radio" class="rate-radio" name="rate" value="1">
@@ -99,11 +124,11 @@
                     <label>10</label>
                 </div>
             </div>
-            <label for="" class="textarea">Deixe seu comentário:</label>
-            <textarea name="texto" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
-
-            <p id="counter">500</p>
-
+            <div id="textarea-container">
+                <label for="" class="textarea">Deixe seu comentário:</label>
+                <textarea name="texto" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+                <p id="counter">500</p>
+            </div>
             <div id="agreement-container">
                 <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
                 <input type="checkbox" name="agreement" id="agreement">
