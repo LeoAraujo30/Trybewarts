@@ -65,8 +65,18 @@ form#evaluation-form {
 #radio-rate-container {
   display: flex;
   justify-content: space-between;
+  margin: 10px 0;
 }
 
 #radio-rate-container .radio-input label {
   margin-left: 0;
+}
+
+#agreement-container {
+  display: flex;
+  align-items: center;
+}
+
+#agreement-container > label {
+  margin-right: 10px;
 }

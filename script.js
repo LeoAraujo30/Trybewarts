@@ -1,6 +1,6 @@
 const loginEmailInput = document.getElementById('email');
 const loginPasswordInput = document.getElementById('password');
-const loginSubmitButton = document.getElementById('submit-btn');
+const loginSubmitButton = document.getElementById('login-submit-btn');
 
 function validateData(inputValue, expectedValue) {
   return inputValue === expectedValue;
