@@ -29,11 +29,12 @@ form.trybewarts-login {
   display: flex;
 }
 
+main {
+  display: flex;
+}
+
 form#evaluation-form {
     display: flex;
     width: 675px;
-}
-
-main {
-    display: flex;
+    flex-direction: column;
 }
