@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header.header {
     display: flex;
     background-color: rgb(50, 167, 145);
@@ -6,3 +7,31 @@ header.header {
 form.trybewarts-login {
     display: flex;
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+}
+
+header {
+  padding: 10px;
+}
+
+.trybewarts-header-logo {
+  height: 60px;
+}
+
+#trybewarts-header-title {
+  color: whitesmoke;
+}
+>>>>>>> 94c45a9888c1f4fdc25ae5e6ab71e6d3350a03db
