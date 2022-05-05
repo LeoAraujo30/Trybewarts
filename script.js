@@ -14,6 +14,9 @@ const formCommentInput = document.getElementById('textarea');
 const formAgreementCheckboxInput = document.getElementById('agreement');
 const formSubmitButton = document.getElementById('submit-btn');
 
+const textarea = document.getElementById('textarea');
+const counter = document.getElementById('counter');
+
 function validateData(inputValue, expectedValue) {
   return inputValue === expectedValue;
 }
@@ -98,3 +101,10 @@ formAgreementCheckboxInput.addEventListener('change', (event) => {
 });
 
 formSubmitButton.addEventListener('click', submitForm);
+
+function caracteresCounter() {
+  const caracteres = textarea.value;
+  counter.innerText = 500 - caracteres.length;
+}
+
+textarea.addEventListener('keyup', caracteresCounter);
