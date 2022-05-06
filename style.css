@@ -37,7 +37,7 @@ header {
 
 .trybewarts-login input , .trybewarts-login button {
   border-radius: 10px;
-  border-color: white;
+  border-color: rgb(50, 167, 145);
   background-color: white;
   padding: 10px;
 }
@@ -170,5 +170,10 @@ footer p {
   font-family: Georgia, Times, serif;
   display: flex;
   justify-content: center;
+}
+
+form #login-submit-btn {
+  background-color: purple;
+  color: white;
 }
 
