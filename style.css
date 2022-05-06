@@ -5,6 +5,10 @@
 }
 
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   font-family: sans-serif;
   background-color: rgb(238, 238, 238);
 }
@@ -12,11 +16,11 @@ body {
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 header {
-  padding: 10px;
+  padding: 10px 20px;
 }
 
 .trybewarts-header-logo {
@@ -40,6 +44,7 @@ header {
   border-color: rgb(50, 167, 145);
   background-color: white;
   padding: 10px;
+  border: none;
 }
 
 main {
