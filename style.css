@@ -25,7 +25,7 @@ header {
 
 #trybewarts-header-title {
   color: whitesmoke;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, Times, serif;
   font-size: xxx-large;
 }
 
@@ -35,11 +35,11 @@ header {
   gap: 10px;
 }
 
-.trybewarts-login input, .trybewarts-login button{
-    border-radius: 10px;
-    border-color: white;
-    background-color: white;
-    padding: 10px
+.trybewarts-login input , .trybewarts-login button {
+  border-radius: 10px;
+  border-color: white;
+  background-color: white;
+  padding: 10px;
 }
 
 main {
@@ -158,17 +158,17 @@ hr {
   border: none;
 }
 
-footer{
-    background-color: #24292f;; 
-    padding: 15px;
+footer {
+  background-color: rgb(39, 39, 43);
+  padding: 15px;
 }
 
-footer p{
-    color: whitesmoke;
-    font-style: italic;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    display: flex;
-    justify-content: center;
+footer p {
+  color: whitesmoke;
+  font-style: italic;
+  font-size: 20px;
+  font-family: Georgia, Times, serif;
+  display: flex;
+  justify-content: center;
 }
 
